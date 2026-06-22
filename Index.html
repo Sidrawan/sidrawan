@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Awan Law Associates | Taxfilernow Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3">
+                <div class="bg-indigo-600 text-white w-10 h-10 flex items-center justify-center rounded-lg shadow-md">
+                    <i class="fa-solid fa-scale-balanced text-lg"></i>
+                </div>
+                <div>
+                    <span class="font-bold text-slate-950 text-lg block leading-none">ALI AWAN</span>
+                    <span class="text-xs text-slate-500 uppercase tracking-widest font-semibold">Law Associates</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-600">
+                <a href="#about" class="hover:text-indigo-600 transition-colors">About</a>
+                <a href="#services" class="hover:text-indigo-600 transition-colors">Services</a>
+                <a href="#values" class="hover:text-indigo-600 transition-colors">Core Pillars</a>
+                <a href="mailto:taxsystemonline@gmail.com" class="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-lg shadow-sm transition-all hover:shadow-indigo-100">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white py-24 px-4 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <div class="inline-flex items-center gap-2 bg-indigo-500/20 text-indigo-300 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide uppercase mb-6 border border-indigo-500/30">
+                <i class="fa-solid fa-circle-check text-[10px]"></i> Authorized Legal & Tax Partners
+            </div>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-white mb-6 leading-tight">
+                Strategic Legal Counsel & <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-300">Tax Optimization</span>
+            </h1>
+            <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Providing robust corporate governance, compliance strategies, and absolute protection of rights before appellate forums.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#services" class="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-8 py-4 rounded-xl shadow-lg shadow-indigo-950/50 transition-all transform hover:-translate-y-0.5">
+                    Explore Services
+                </a>
+                <button onclick="toggleModal(true)" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-8 py-4 rounded-xl backdrop-blur-sm transition-all">
+                    Request Consultation
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Brief -->
+    <section id="about" class="py-20 max-w-6xl mx-auto px-4">
+        <div class="bg-white rounded-2xl border border-slate-200/80 p-8 md:p-12 shadow-sm flex flex-col md:flex-row gap-10 items-center">
+            <div class="md:w-1/2">
+                <h2 class="text-xs uppercase tracking-widest font-bold text-indigo-600 mb-3">Firm Profile</h2>
+                <h3 class="text-2xl md:text-3xl font-bold text-slate-900 mb-4 tracking-tight">Ali Awan Law Associates</h3>
+                <p class="text-slate-600 leading-relaxed mb-6">
+                    Operating Digitally via <span class="font-semibold text-slate-900">Taxfilernow.com</span>, we specialize in corporate structuring, cross-border compliance, and multi-tier tax planning. We stand as a dedicated shield for individuals and commercial enterprises facing complex financial regulatory environments.
+                </p>
+                <div class="flex items-center gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100">
+                    <i class="fa-solid fa-envelope text-indigo-600 text-xl"></i>
+                    <div>
+                        <span class="text-xs font-semibold text-slate-400 uppercase block">Direct Case Inquiries</span>
+                        <a href="mailto:taxsystemonline@gmail.com" class="text-slate-900 font-bold hover:text-indigo-600 transition-colors">taxsystemonline@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 grid grid-cols-2 gap-4 w-full">
+                <div class="p-6 bg-slate-50 rounded-xl border border-slate-100 text-center">
+                    <div class="text-3xl font-black text-indigo-600 mb-1">100%</div>
+                    <div class="text-xs font-bold text-slate-500 uppercase tracking-wide">Client Confidentiality</div>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-xl border border-slate-100 text-center">
+                    <div class="text-3xl font-black text-indigo-600 mb-1">ATIR</div>
+                    <div class="text-xs font-bold text-slate-500 uppercase tracking-wide">Appellate Representation</div>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-xl border border-slate-100 text-center">
+                    <div class="text-3xl font-black text-indigo-600 mb-1">ADR</div>
+                    <div class="text-xs font-bold text-slate-500 uppercase tracking-wide">Alternative Dispute Resolution</div>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-xl border border-slate-100 text-center">
+                    <div class="text-3xl font-black text-indigo-600 mb-1">SEC</div>
+                    <div class="text-xs font-bold text-slate-500 uppercase tracking-wide">Corporate Compliance</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dynamic Services Portfolio Section -->
+    <section id="services" class="py-20 bg-slate-100 border-y border-slate-200/60 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-xs uppercase tracking-widest font-bold text-indigo-600 mb-3">Core Offerings</h2>
+                <h3 class="text-3xl font-bold text-slate-900 tracking-tight">Comprehensive Legal Architecture</h3>
+                <p class="text-slate-600 mt-2">Filter our specific expertise using the interactive controller below.</p>
+            </div>
+
+            <!-- Dynamic Interactive Filter Tabs -->
+            <div class="flex flex-wrap justify-center gap-2 mb-10 max-w-xl mx-auto bg-white p-1.5 rounded-xl shadow-sm border border-slate-200">
+                <button onclick="filterServices('all')" id="tab-all" class="tab-btn px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-lg transition-all bg-indigo-600 text-white shadow-sm">
+                    All Practices
+                </button>
+                <button onclick="filterServices('tax')" id="tab-tax" class="tab-btn px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-lg transition-all text-slate-600 hover:bg-slate-50">
+                    Tax Law
+                </button>
+                <button onclick="filterServices('corporate')" id="tab-corporate" class="tab-btn px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-lg transition-all text-slate-600 hover:bg-slate-50">
+                    Corporate
+                </button>
+                <button onclick="filterServices('litigation')" id="tab-litigation" class="tab-btn px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-lg transition-all text-slate-600 hover:bg-slate-50">
+                    Litigation
+                </button>
+            </div>
+
+            <!-- Practice Grid Container -->
+            <div class="grid md:grid-cols-2 gap-6" id="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5" data-category="tax">
+                    <div class="w-12 h-12 bg-indigo-50 text-indigo-600 flex items-center justify-center rounded-xl mb-5 font-bold"><i class="fa-solid fa-coins text-xl"></i></div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-2">Tax Advisory & Strategy</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Advanced structural corporate tax planning, alignment with changing provincial/federal updates, and complete dynamic individual asset protection frameworks.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5" data-category="corporate">
+                    <div class="w-12 h-12 bg-indigo-50 text-indigo-600 flex items-center justify-center rounded-xl mb-5 font-bold"><i class="fa-solid fa-building text-xl"></i></div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-2">Corporate & Regulatory Compliance</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Entity incorporation tracking, legal frameworks creation, regulatory declarations management, and absolute international standards alignment verification.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5" data-category="litigation">
+                    <div class="w-12 h-12 bg-indigo-50 text-indigo-600 flex items-center justify-center rounded-xl mb-5 font-bold"><i class="fa-solid fa-gavel text-xl"></i></div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-2">Litigation & Appellate Representation</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Definitive representation at Appellate Tribunal Inland Revenue (ATIR), regional High Courts, and Supreme Court actions regarding high-stakes legal anomalies.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="service-card bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5" data-category="litigation">
+                    <div class="w-12 h-12 bg-indigo-50 text-indigo-600 flex items-center justify-center rounded-xl mb-5 font-bold"><i class="fa-solid fa-handshake-simple text-xl"></i></div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-2">Alternative Dispute Resolution (ADR)</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Fast-tracked negotiation, administrative mediation systems implementation, and binding cross-party balance preservation bypassing traditional courtroom friction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section id="values" class="py-20 max-w-6xl mx-auto px-4">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="text-xs uppercase tracking-widest font-bold text-indigo-600 mb-3">Service Philosophy</h2>
+            <h3 class="text-3xl font-bold text-slate-900 tracking-tight">Our Operational Principles</h3>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white border border-slate-200 p-6 rounded-xl">
+                <i class="fa-solid fa-award text-2xl text-indigo-600 mb-4"></i>
+                <h4 class="font-bold text-lg text-slate-900 mb-2">Expertise & Knowledge</h4>
+                <p class="text-sm text-slate-600 leading-relaxed">Deep analysis of modern legal frameworks and local tax codes translates to high defense confidence for our clients.</p>
+            </div>
+            <div class="bg-white border border-slate-200 p-6 rounded-xl">
+                <i class="fa-solid fa-shield-halved text-2xl text-indigo-600 mb-4"></i>
+                <h4 class="font-bold text-lg text-slate-900 mb-2">Integrity & Trust</h4>
+                <p class="text-sm text-slate-600 leading-relaxed">Absolute clarity in reporting, adherence to legal ethics, and robust privilege over client documentation data points.</p>
+            </div>
+            <div class="bg-white border border-slate-200 p-6 rounded-xl">
+                <i class="fa-solid fa-user-tie text-2xl text-indigo-600 mb-4"></i>
+                <h4 class="font-bold text-lg text-slate-900 mb-2">Client-Focused Mindset</h4>
+                <p class="text-sm text-slate-600 leading-relaxed">No broad generalizations. Every layout, filing trajectory, or litigation strategy is entirely bespoke to client realities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Interactive Modal / Dialog Popup Box Container Component -->
+    <div id="contact-modal" class="hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl border border-slate-200 max-w-md w-full p-6 shadow-xl relative animate-in fade-in zoom-in-95 duration-200">
+            <button onclick="toggleModal(false)" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 transition-colors">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+            <div class="mb-4">
+                <h3 class="text-xl font-bold text-slate-900">Request Legal Consultation</h3>
+                <p class="text-sm text-slate-500 mt-1">Submit your matter details directly to our corporate email repository.</p>
+            </div>
+            <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-bold text-slate-600 uppercase mb-1">Your Name</label>
+                    <input type="text" required id="form-name" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-indigo-600 transition-colors">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-600 uppercase mb-1">Corporate Email</label>
+                    <input type="email" required id="form-email" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-indigo-600 transition-colors">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-600 uppercase mb-1">Brief Description of Matter</label>
+                    <textarea required id="form-msg" rows="4" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-indigo-600 transition-colors resize-none"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2.5 rounded-lg text-sm transition-colors shadow-sm">
+                    Open Email Application
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800 text-sm px-4">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <p class="font-bold text-white text-base">Ali Awan Law Associates</p>
+                <p class="text-xs text-slate-500 mt-1">Digital Presence Managed via Taxfilernow.com</p>
+            </div>
+            <div class="flex items-center gap-6 text-xs font-medium">
+                <a href="#about" class="hover:text-white transition-colors">About</a>
+                <a href="#services" class="hover:text-white transition-colors">Services</a>
+                <a href="mailto:taxsystemonline@gmail.com" class="hover:text-white transition-colors">taxsystemonline@gmail.com</a>
+            </div>
+            <p class="text-xs text-slate-600">&copy; 2026 Ali Awan Law Associates. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive JavaScript Engine Client Scripts -->
+    <script>
+        // Tab-Filtering Engine logic script
+        function filterServices(category) {
+            const cards = document.querySelectorAll('.service-card');
+            const tabs = document.querySelectorAll('.tab-btn');
+            
+            // Clear all active tracking classes on tab selectors
+            tabs.forEach(tab => {
+                tab.classList.remove('bg-indigo-600', 'text-white', 'shadow-sm');
+                tab.classList.add('text-slate-600', 'hover:bg-slate-50');
+            });
+            
+            // Apply layout styles to focused current action target elements 
+            const activeTab = document.getElementById(`tab-${category}`);
+            if (activeTab) {
+                activeTab.classList.remove('text-slate-600', 'hover:bg-slate-50');
+                activeTab.classList.add('bg-indigo-600', 'text-white', 'shadow-sm');
+            }
+
+            // Hide/Show dynamic nodes inside block wrapper grids
+            cards.forEach(card => {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Action Modal Controller States
+        function toggleModal(show) {
+            const modal = document.getElementById('contact-modal');
+            if (show) {
+                modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            } else {
+                modal.classList.add('hidden');
+                document.body.style.overflow = '';
+            }
+        }
+
+        // Form pipeline handling logic simulation targeting native mail handles
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('form-name').value;
+            const email = document.getElementById('form-email').value;
+            const msg = document.getElementById('form-msg').value;
+            
+            // Generate standard mailto tracking strings dynamically safely formatting contents
+            const subject = encodeURIComponent(`Inquiry from ${name} via Portfolio`);
+            const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${msg}`);
+            
+            window.location.href = `mailto:taxsystemonline@gmail.com?subject=${subject}&body=${body}`;
+            toggleModal(false);
+        }
+    </script>
+</body>
+</html>
